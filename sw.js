@@ -5,7 +5,8 @@ console.log("e: >>",e.data.text());
         data:{
             dateOfArrival:Date.now(),
             primarKey:"3"
-        }
+        },
+        icon:"/images/icon.jpg",
     }
 
     e.waitUntil(self.registration.showNotification("Yeni Makale Eklendi !!",config));  
