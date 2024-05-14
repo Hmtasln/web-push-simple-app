@@ -8,7 +8,7 @@ self.addEventListener("push",(e)=>{
         }
     }
 
-    e.waitUntil(self.registration.showNotification("Yeni Makale Eklendi !!",config)); 
+    e.waitUntil(self.registration.showNotification("Yeni Makale Eklendi !!",config));  
      
 
 });
