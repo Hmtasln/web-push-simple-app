@@ -21,5 +21,5 @@ const subscribeFirefox={
 "p256dh":"BNYqBVIx1dic8yDNVq7zb5pR86w_jaG20NW1zYVUEg6yud1M_XgGGKEBP6tUXK5a2ppAkSWYF3jtrNWuM6E_cdo"
 }};
 
-webPush.sendNotification(subscribeBrave);
-webPush.sendNotification(subscribeFirefox);
+webPush.sendNotification(subscribeBrave,"Brave bildirim gönderildi.");
+webPush.sendNotification(subscribeFirefox,"Firefox bildirim gönderildi.");
