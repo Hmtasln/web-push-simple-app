@@ -7,6 +7,7 @@ console.log("e: >>",e.data.text());
             primarKey:"3"
         },
         icon:"/images/icon.jpg",
+        vibration:[100,50,100],
     }
 
     e.waitUntil(self.registration.showNotification("Yeni Makale Eklendi !!",config));  
