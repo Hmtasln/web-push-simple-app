@@ -1,7 +1,7 @@
 self.addEventListener("push",(e)=>{
-console.log("e: >>",e.data);
+console.log("e: >>",e.data.text());
     const config={
-        body:"Mesaj içeriği burada yer alacaktır.",
+        body:e.data.text() || "Yeni Makale Gözatın !!",
         data:{
             dateOfArrival:Date.now(),
             primarKey:"3"
