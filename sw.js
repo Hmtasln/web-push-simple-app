@@ -1,5 +1,5 @@
 self.addEventListener("push",(e)=>{
-console.log("e: >>");
+console.log("e: >>",e.data);
     const config={
         body:"Mesaj içeriği burada yer alacaktır.",
         data:{

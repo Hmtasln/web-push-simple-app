@@ -10,5 +10,5 @@
 
 const subscribeFirefox={"endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABmQhl7yO8wmJkfvq9doZnmQxa5WT2lx7AYP_OGEO9Ga2xTvam905MNvG89iGGEFeP49XWD6bwXkXfW-Ibk_qGLk5CwB-EwI5sv5-GgHusG_YTDwkyXVUKIAzgVl1HoM4QIX0SUhbOwLs5InjEdqaLN51wZeV4fMka7EnqlkltKbz7x-jQ","expirationTime":null,"keys":{"auth":"r6OHcjfR9mJ4aSZMhegndw","p256dh":"BNYqBVIx1dic8yDNVq7zb5pR86w_jaG20NW1zYVUEg6yud1M_XgGGKEBP6tUXK5a2ppAkSWYF3jtrNWuM6E_cdo"}};
 
-webPush.sendNotification(subscribeBrave);
+webPush.sendNotification(subscribeBrave,"Bu bir başlıktır mesajıdır..");
 webPush.sendNotification(subscribeFirefox); 
