@@ -7,7 +7,7 @@
   webPush.setVapidDetails("mailto:hamit.c.aslan@gmail.com",vapidKeys.publicKey,vapidKeys.privateKey)
   console.log(vapidKeys);
   const subscribeBrave={
-  "endpoint":"https://fcm.googleapis.com/fcm/send/dh17tHzWO2Q:APA91bGXWL_wwLsAdSMj78dhYvuH2EG4kX0D_IKiYp6ITvJa5KYf2VFdETWfJBI2gABZEy55LMAa2WvhzuQY2J24tpQTwC2D7H_GMLn1NXHRNdSaiTPvlWY6GHG_oNqFHCx4W_yBp7-C",
+  "endpoint":"https://fcm.googleapis.com/fcm/send/e9acwVHBOxY:APA91bF43yvyZpdCt_XdbMS8Vjo51Fveg1PppNzhjPI-4Ghk8icXtLxw8PEceSIfi_ux8NVHa-srMk44lmNv6-D-pZZLPykWEoJlAt3IeuLvc82XeRv4VBbrtWmfNKSbPOdSMtNOn-Vw",
   "expirationTime":null,
   "keys":{
     "p256dh":"BAAZHUtr2Qb3YhSuFFDMFbU8FGP0iaro1RhbWxTXQciNQ1zAuo6jJzFRCJs_BDuRO17nYlpRA92XLfbAP-MlHm0",
