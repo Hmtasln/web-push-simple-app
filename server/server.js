@@ -6,10 +6,7 @@
   };
   webPush.setVapidDetails("mailto:hamit.c.aslan@gmail.com",vapidKeys.publicKey,vapidKeys.privateKey)
   //console.log(vapidKeys);
-  const subscribeBrave={"endpoint":"https://fcm.googleapis.com/fcm/send/e9acwVHBOxY:APA91bF43yvyZpdCt_XdbMS8Vjo51Fveg1PppNzhjPI-4Ghk8icXtLxw8PEceSIfi_ux8NVHa-srMk44lmNv6-D-pZZLPykWEoJlAt3IeuLvc82XeRv4VBbrtWmfNKSbPOdSMtNOn-Vw",
-  "expirationTime":null,
-  "keys":{"p256dh":"BFnJjJmJ254dP2j5QuiuM-iKH-Y6TiWRC6j6XX-xkFt3kGLL69XD_VUoj8_AZAM1ihMYLmQc4A_Yed5N7wdD1iw",
-  "auth":"TPm4knaFZuUJQUmJoPpZ0w"}};
+  const subscribeBrave={"endpoint":"https://fcm.googleapis.com/fcm/send/eME5du95QXg:APA91bEeiDjFStvr95EhENlEhhbZ73cObjBBn6BYfvccnPsRZUjLXd-vcUPus1vww2nc9kI4RZpN0nSw4eD5bvmK3LdF7PFTDdrwvlhE4XXOcycR_qidu4IVTClHbkgYGlFgGzeaCHUE","expirationTime":null,"keys":{"p256dh":"BC39g99DjVUrE3iwYzljej2UT3IJDfFLQIcG6yR1-WMiedGEWAMc5Ms41vlwIf9Rdb_L9F4H2oCoy9fSsf61dvI","auth":"Tj9a19SifthPFJFOkqgJnA"}};
 
 /* const subscribeFirefox={"endpoint":"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABmQhl7yO8wmJkfvq9doZnmQxa5WT2lx7AYP_OGEO9Ga2xTvam905MNvG89iGGEFeP49XWD6bwXkXfW-Ibk_qGLk5CwB-EwI5sv5-GgHusG_YTDwkyXVUKIAzgVl1HoM4QIX0SUhbOwLs5InjEdqaLN51wZeV4fMka7EnqlkltKbz7x-jQ",
 "expirationTime":null,
