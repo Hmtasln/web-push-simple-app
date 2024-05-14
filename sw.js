@@ -8,7 +8,17 @@ console.log("e: >>",e.data.text());
         },
         icon:"/images/icon.jpg",
         vibration:[100,50,100],
-    }
+        action:[
+            {
+            action:"explore",
+            title:"Gözatmak"
+        },
+        {
+            action:"close",
+            title:"Kapat"
+        }
+        ]
+    };
 
     e.waitUntil(self.registration.showNotification("Yeni Makale Eklendi !!",config));  
      

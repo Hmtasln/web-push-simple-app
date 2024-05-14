@@ -12,5 +12,5 @@
 "expirationTime":null,
 "keys":{"auth":"r6OHcjfR9mJ4aSZMhegndw","p256dh":"BNYqBVIx1dic8yDNVq7zb5pR86w_jaG20NW1zYVUEg6yud1M_XgGGKEBP6tUXK5a2ppAkSWYF3jtrNWuM6E_cdo"}}; */
 
-webPush.sendNotification(subscribeBrave,"Bu bir başlıktır mesajıdır..");
+webPush.sendNotification(subscribeBrave,"Push natification nasıl yapılır ?");
 /* webPush.sendNotification(subscribeFirefox);  */
