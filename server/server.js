@@ -22,4 +22,4 @@ const subscribeFirefox={
 }};
 
 webPush.sendNotification(subscribeBrave,"Brave bildirim gönderildi.");
-webPush.sendNotification(subscribeFirefox,"Firefox bildirim gönderildi.");
+webPush.sendNotification(subscribeFirefox,"Firefox bildirim gönderildi."); 
